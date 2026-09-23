@@ -12,7 +12,6 @@
     setNavbarHighlight();
     setNavbarListeners();
 
-    setTeamPageCycleListeners();
     loadNewsPosts();
     createLightBeams();
 
@@ -251,35 +250,4 @@
     return Math.max(min, Math.round(Math.random() * max));
   }
 
-  function setTeamPageCycleListeners() {
-    const buttons = document.querySelectorAll('.arrow-button');
-    const waves = document.querySelector('.mini-waves');
-    const cards = document.querySelectorAll('.team-card');
-    let current = 0;
-
-    const nextFunc = function () {
-      waves.classList.remove('down');
-      setTimeout(() => {
-        cards[current].classList.add('hidden');
-        current = current + 1 < cards.length ? current + 1 : 0;
-        cards[current].classList.remove('hidden');
-        waves.classList.add('down');
-      }, 1000);
-    };
-    const prevFunc = function () {
-      waves.classList.remove('down');
-      setTimeout(() => {
-        cards[current].classList.add('hidden');
-        current = current > 0 ? current - 1 : cards.length - 1;
-        cards[current].classList.remove('hidden');
-        waves.classList.add('down');
-      }, 1000);
-    };
-
-    for (let i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener('click',
-        buttons[i].classList.contains("inverse") ? prevFunc : nextFunc
-      );
-    }
-  }
 })();

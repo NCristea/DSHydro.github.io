@@ -33,7 +33,9 @@
       </a>
       <div id="navbar">
         <button class="navlink">Home</button>
-        <button class="navlink">Current Research</button>
+        <button class="navlink">Research</button>
+        <button class="navlink">Data Science</button>
+        <button class="navlink">Applied Research</button>
         <button class="navlink">Publications</button>
         <button class="navlink">Team</button>
       </div>
@@ -93,40 +95,22 @@
       </svg>
     </button>
     <button class="mobile navlink">Home</button>
-    <button class="mobile navlink">Current Research</button>
+    <button class="mobile navlink">Research</button>
+    <button class="mobile navlink">Data Science</button>
+    <button class="mobile navlink">Applied Research</button>
     <button class="mobile navlink">Publications</button>
     <button class="mobile navlink">Team</button>
   </div>
   <!-- END HEADER -->
 
   <section class="page-content" id="page-home">
-    <h1>About DSHydro and the PI</h1>
+    <h1>Data Science and Hydrology</h1>
     <p>
-      Nicoleta Cristea is a research hydrologist in the University of Washington (UW) Department of
-      <a href="https://www.ce.washington.edu/">Civil and Environmental Engineering</a> and a Data Science Fellow at
-      the UW <a href="https://escience.washington.edu/">eScience Institute</a>, Seattle. She is interested in multiple
-      aspects of water resources research with a focus on climate change effects on water resources, modeling and
-      remote sensing. At the UW eScience Institute, Nicoleta is co-hosting the
-      <a href="https://escience.washington.edu/uw-data-science-seminar/">UW Data Science Seminar</a>, a more than a
-      decade old seminar series.
-    </p>
-    <h1>Research</h1>
-    <p>
-      Our research focuses on understanding large and fine scale hydrologic phenomena in a changing climate through
-      combining field and remotely sensed observations with physics-based modeling and data driven discovery. We are particularly
-      interested in methods’ transferability from smaller to larger scales or to different geographic settings.
-      In our research, we use tools involving geographic information systems, airborne and satellite-derived imagery,
-      spatial statistics and spatial data exploration, spatiotemporal visualization techniques, machine learning
-      and physics-based modeling. Current research projects include mapping detailed snow covered
-      areas from Cubesat imagery using machine learning techniques and snowpack modeling across complex terrain.
-    </p>
-    <h1>Data Science</h1>
-    <p>
-      Machine learning applications in water resources and other geoscience fields are increasingly used to advance data
-      driven discovery. To facilitate faster adoption of these techniques we
-      are developing <a href="https://geo-smart.github.io/">GeoSMART</a>, an educational
-      framework designed to provide online resources and hands-on learning through
-      community building and <a href="https://guidebook.hackweek.io/">hackweek</a> events.
+      Our research combines field and remotely sensed observations with physics-based and machine-learning models to
+      understand large- and fine-scale hydrologic phenomena in a changing climate. We are particularly interested in
+      transferring these methods across different scales and geographic settings. Given the growing importance of
+      efficiently storing, analyzing, and visualizing large datasets, we are integrating modern data science
+      techniques into our research.
     </p>
     <!-- UNDER CONTRUCTION BANNER -->
     <div class="under-construction-banner">
@@ -190,103 +174,145 @@
     <!-- UNDER CONTRUCTION BANNER -->
   </section>
 
-  <section class="page-content hidden" id="page-current-research">
-    <h1>Cyberinfrastructure for Intelligent High-Resolution Snow Cover Inference from Cubesat Imagery</h1>
-    <p class="subtitle">Funding: NSF Geoinformatics</p>
-    <p>
-      The ability to observe the Earth from space at relevant spatial and temporal scales is key to understanding how
-      hydrological and ecological systems will respond to climate change. In particular, high spatial and temporal
-      resolution (meter scale, daily frequency) observations of snow-covered areas in mountain regions are critical as
-      snow is important for water resources, driving the seasonal hydrological regimes of the Western U.S., with
-      significant impacts on ecological communities. Planet Labs, Inc. (Planet) is a promising new source of commercial
-      Cubesat high-resolution imagery that can be used in environmental science, as it has both high spatial (3.0-4.0 m)
-      and temporal (1-2 day) resolution. This project will develop open-source, cloud-based cyberinfrastructure
-      including an automated pipeline for processing, analyzing and interpreting Planet Cubesat image data using a
-      machine learning approach to infer snow cover at meter-scale resolution. All models and data products will be
-      openly available for use and modification by scientific communities. The project will support the training of
-      students, postdocs and other early-career researchers through training events, special interest groups, and
-      incubator programs.<br><br>
+  <section class="page-content hidden" id="page-research">
+    <h1>Research</h1>
+    <p class="subtitle">Our research themes and approaches</p>
 
-      Currently, remotely-sensed snow observations with adequate temporal (daily) resolution are either captured at a
-      spatial scale far too large to be relevant to high-resolution hydrology and ecology studies (e.g. MODIS, 500m) or
-      are appropriate in spatial scale (1-10 m) but have inadequate temporal resolution and are cost-prohibitive (e.g.
-      airborne LiDAR). The recent increase of commercial Earth Observation data with high spatiotemporal resolution may
-      bridge the gap between ground-based and low-resolution satellite observation data. This project will focus on
-      using convolutional neural networks-based models to couple ground and airborne-derived snow observations with
-      Planet imagery in three different montane systems in Washington, California, and Colorado. These sites have very
-      good coverage of ground and airborne snow observations at high resolution (3m) collected by the NASA Airborne Snow
-      Observatory (ASO) and SnowEx missions, which will be used in the training and validation of the models. The
-      project will develop advanced cyberinfrastructure using scalable virtual machines, distributed collaborative
-      architecture, reusable computational frameworks, and replicable machine learning workflows to empower Earth
-      scientists to access, process and generate high-resolution snow products from Cubesat data. The project will adopt
-      open-source strategies and ensure that all data, algorithms, and architecture comply with FAIR data principles and
-      reproducibility and will include training materials that promote the adoption of the infrastructure and tools.
-      <a href="https://www.sciencedirect.com/science/article/pii/S0034425721001176" target="_blank">Read
-        more...</a>
-    </p>
-    <br>
-    <h1>Machine Learning Training and Curriculum Development for Earth Science Studies</h1>
-    <p class="subtitle">Funding: NSF Cybetraining</p>
-    <p>
-      Earth system science discoveries are increasingly affected by the management, analysis, and data inference using
-      powerful machine learning (ML) techniques. Yet, the skills required to perform these tasks, and the education of
-      cutting-edge, open-source technology to build ML models and pipelines, big data, and cloud computing, are not
-      covered by the traditional graduate curriculum in the geosciences. To fill these gaps, this project will develop
-      the GeoScience MAchine Learning Resources and Training (GeoSMART) framework that will build a foundation in
-      open-source scientific ecosystems and general ML theory, toolkits, and deployment on Cloud computing.<br><br>
+    <h2 class="research-section">Hydrology &amp; Ecohydrology</h2>
 
-      This project will include a team of geoscience and ML educators to create a novel ML curriculum with focus on
-      seismology, cryosphere and hydrology applications. The training materials will be included in an enhanced
-      curriculum that will broaden impact on emerging ML communities. The project's implementation plan will provide
-      training in open-source ML toolkits and data science skills. Further, the project will cultivate the development
-      of discipline-specific ML libraries, workflows, and communities of practice to sustain future growth of ML
-      cybertraining opportunities. By building tools using open-source and cloud-accessible platforms, and by partnering
-      with colleges and institutions that lack computing resources for ML workflows, the project will increase access to
-      cybertraining materials and help to solve geoscience challenges.
+    <h3 class="research-topic">Detecting Snowmelt Phases with SAR and Hydrological Modeling</h3>
+    <p class="research-desc">
+      Monitoring the physical state of the snowpack is essential for predicting spring runoff and managing water
+      supplies. We leverage Synthetic Aperture Radar (SAR)&mdash;which can penetrate cloud cover&mdash;in combination
+      with robust hydrological models to track liquid water content in the snowpack. This integrated approach allows us
+      to reliably detect critical snowmelt phases, such as the onset of runoff, improving early warning systems for
+      floods and water availability forecasts.
     </p>
-    <br>
-    <h1>Evaluation of remotely sensed snow covered area datasets across the Sierra Nevada meadows</h1>
-    <p class="subtitle">Funding: NASA</p>
-    <p>
-      We will generate high-resolution SCA maps across the Sierra Nevada watersheds and will examine the snow mapping
-      performance across and around the meadow areas at several times during the ablation season. Meadow ecosystems of
-      the Sierra Nevada are dependent on the snowpack, groundwater and other hydrologic functions that ensure proper
-      habitat for diverse biota, providing key ecosystem services in a fragile equilibrium, and at risk from human and
-      hydroclimatic changes. We will use the digitized meadow dataset to identify meadows with an area greater than 1
-      acre (~4000 m2) and will analyze the model performance for areas with at least 3x3 MODIS pixels. We will compare
-      the reconstructed fSCA from the Planet data with MODSCAG fSCA and other forest-corrected fSCA products to diagnose
-      differences in snow data from the two different satellite image sources with similar temporal resolution (~daily)
-      but very different spatial resolutions.
-    </p>
-    <br>
-    <h1>
-      What's in a pixel? Snow water equivalent and subpixel variability at multiple spatial resolutions in mountainous
-      terrain
-    </h1>
-    <p class="subtitle">Funding: NASA</p>
-    <p>
-      Snowpack melt in spring and summer is critical to meet water demands in the Western United States. Reliable
-      streamflow forecasting for water management requires robust estimation of the water stored in the snowpack and
-      applications of distributed hydrologic models. Recent applications in acquisition and processing of light
-      detection and ranging (lidar) observations to estimate snow depth made possible to evaluate how a hydrologic model
-      represents the spatial distribution of snow. Multiple studies have identified causes for model uncertainty across
-      a range of models of various complexity. Snowmelt models are uncertain in their predictions primarily due to:
-      inadequate or erroneous forcing data, model structure and process representation, as well as coarse spatial
-      resolution and representation of subgrid variability. We propose to apply different resolution distributed
-      hydrologic models across several mountainous regions where the lidar-derived snow depth datasets are available. We
-      will use forcing datasets from multiple sources to run different types of models at variable spatial resolutions
-      ranging 30-1000 m. We will examine models' performances to simulate snow water equivalent at different spatial
-      scales, paying particular attention to models' abilities to represent subgrid variability, spatial patterns of
-      snow in complex terrain and snow in forested areas.<br><br>
 
-      Snow in complex terrain is highly variable, so distributed modeling is essential for proper representations of
-      snow and streamflow. Remote-sensing (using both space-borne and air-borne instruments) provides critical spatial
-      measurements, but to definitively identify the “best” model configuration, multiple measurements are needed at
-      different times of year and at different spatial scales. We combine hydrologic modeling with remotely sensed
-      distributed snow depth and land surface temperature data to provide diagnostic in model ability to represent
-      distributed snow processes.
+    <h3 class="research-topic">Detecting Tree Mortality in Forests</h3>
+    <p class="research-desc">
+      Tree mortality driven by climate stress, drought, and insect outbreaks significantly impacts forest health, watershed
+      dynamics, and carbon cycling. We leverage foundation models combined with high-resolution satellite imagery to
+      detect, map, and monitor forest tree mortality across broad spatial scales. By harnessing computer vision foundation
+      models and fine-resolution remote sensing observations, our work enables scalable, precise identification of canopy
+      decline and dead trees, advancing forest monitoring, wildfire risk assessment, and ecohydrological research.
+    </p>
+
+    <h3 class="research-topic">Extreme Events</h3>
+    <p class="research-desc">
+      We leverage gridded datasets, physics-based hydrologic models, and machine learning techniques to analyze and
+      quantify extreme environmental events across varying spatial and temporal scales. We integrate multi-source
+      observational data with predictive algorithms to advance the characterization, risk assessment, and monitoring of
+      severe phenomena including floods, droughts, and tornadoes.
+    </p>
+
+    <h3 class="research-topic">Identifying Snow-Covered Areas at High Spatial Resolution</h3>
+    <p class="research-desc">
+      Accurate mapping of snow-covered areas is critical for understanding water resources and ecological dynamics in
+      mountainous regions. Our research develops and applies advanced remote sensing techniques to capture snow
+      distribution at meter scale spatial resolutions. By refining these observational methods, we can bridge the
+      gap between sparse ground measurements and broad climate models, capturing micro-topographic effects on snow
+      accumulation and ablation.
+    </p>
+
+    <h2 class="research-section">Data-Driven Modeling</h2>
+
+    <h3 class="research-topic">Machine Learning for Streamflow and Snowpack Representation</h3>
+    <p class="research-desc">
+      Traditional hydrological models can be computationally expensive and rely heavily on precise physical
+      parameterization. To overcome these limitations, we utilize advanced machine learning algorithms designed to
+      capture complex, non-linear relationships in environmental datasets. These models allow for highly accurate, fast
+      predictions of streamflow dynamics and snowpack evolution across varying spatial and temporal scales.
+    </p>
+
+    <h3 class="research-topic">Physics-Informed Machine Learning Modeling</h3>
+    <p class="research-desc">
+      While purely data-driven approaches are powerful, they can sometimes yield predictions that violate fundamental
+      physical laws. Our research addresses this by embedding physical principles&mdash;such as mass and energy
+      conservation&mdash;directly into neural network architectures. These physics-informed machine learning (PIML)
+      models ensure that our predictions are not only highly accurate but also physically realistic, making them more
+      robust when forecasting unprecedented climate extremes or unobserved conditions.
+    </p>
+
+    <h2 class="research-section">Interdisciplinary Research</h2>
+
+    <h3 class="research-topic">Merging Hydrology, Seismology, and Modern AI</h3>
+    <p class="research-desc">
+      Our work crosses traditional disciplinary boundaries to unlock new environmental monitoring capabilities. By
+      integrating hydrological processes with environmental seismology, we use modern artificial intelligence and
+      advanced cyberinfrastructure to analyze continuous seismic data. This allows us to extract meaningful signals from
+      ambient seismic &ldquo;noise,&rdquo; turning ground vibrations into valuable proxy data for monitoring river
+      turbulence, bedload transport, and extreme hydrological events at high temporal resolutions.
+    </p>  </section>
+
+  <section class="page-content hidden" id="page-data-science">
+    <h1>Data Science</h1>
+    <p class="subtitle">Integrating machine learning, cloud computing, and AI education in geosciences</p>
+
+    <h2 class="research-section">Data Science and AI Seminars and Training at the UW eScience Institute</h2>
+    <p class="research-desc">
+      Nicoleta is a data science fellow at the <a href="https://escience.washington.edu/" target="_blank">eScience Institute</a>,
+      where she hosts the <a href="https://escience.washington.edu/connect/events/uwdss/" target="_blank">UW Data Science &amp; AI Tricampus seminar</a> (Seattle, Bothell and Tacoma),
+      an annual lecture series at the University of Washington that hosts scholars working across applied areas of data
+      science and AI, such as the arts, engineering, humanities and sciences along with methodological areas in data
+      science, such as computer science, applied math and statistics. Students may opt to sign up for a one credit
+      seminar (CR/NCR) listed as <a href="https://myplan.uw.edu/course/" target="_blank">ENGR 591</a>. At the eScience Institute,
+      Nicoleta is also contributing to training programs such as the
+      <a href="https://escience.washington.edu/using-data-science/data-science-and-ai-accelerator/" target="_blank">Data Science and AI Accelerator program</a>
+      and <a href="https://escience.washington.edu/using-data-science/hackweeks/" target="_blank">hackweek</a> events.
+    </p>
+
+    <h2 class="research-section">Mentoring Data Science Capstone Projects</h2>
+    <p class="research-desc">
+      We actively participate in team mentoring for student projects in the UW Master of Science in Data Science <a href="https://www.washington.edu/datasciencemasters/" target="_blank">Capstone</a> Program.
+      The capstone mentorship provides guidance to graduate student teams working on complex data-driven challenges, with projects including applications of machine learning, interactive data visualization, and reproducible research in the geosciences.
+    </p>
+
+    <h2 class="research-section">ML and Data Science Curriculum in Geosciences</h2>
+    <p class="research-desc">
+      Machine learning applications in water resources and other geoscience fields are increasingly used to advance
+      data-driven discovery. To facilitate faster adoption of these techniques <a href="https://geo-smart.github.io/" target="_blank">GeoSMART</a>,
+      an NSF-funded educational and research initiative led by PI Cristea at the University of Washington, was dedicated to integrating
+      machine learning (ML) and cloud computing into the geosciences. The program supported courses at UW, such as
+      Machine Learning in the Geosciences (ESS 469/569, which utilize open-source Jupyter Notebooks, cloud- and
+      Python-based workflows), as well as hands-on training events (<a href="https://geo-smart.github.io/codeweek" target="_blank">hackweeks</a>),
+      end-to-end machine learning <a href="https://geo-smart.github.io/usecases" target="_blank">use cases</a>, and review articles.
+      Although the project has ended, we remain committed to maintaining and updating the <a href="https://geo-smart.github.io/" target="_blank">GeoSMART</a> website.
     </p>
   </section>
+
+  <section class="page-content hidden" id="page-applied-research">
+    <h1>Applied Research</h1>
+    <p class="subtitle">Partnering with stakeholders to inform water and climate decisions</p>
+
+    <h2 class="research-section">Current and Future Hydrology of Seattle City Light Managed Basins</h2>
+    <p class="research-desc">
+      Ongoing changes in snowpack, linked to long-term climate projections, affect the region's water resources and
+      mountain ecosystems, posing new challenges for water resource managers. Through this collaboration, we evaluate
+      future snowmelt trends in the South Fork Tolt River basin and develop meteorological metrics from gridded datasets
+      for the Skagit River basin and other Washington locations. We analyze historical observations, climate
+      projections, hydrologic model outputs, and key meteorological variables to support Seattle City Light's climate
+      adaptation, water resource, and energy planning.
+    </p>
+
+    <h2 class="research-section">CIVIC NSF Stage 1</h2>
+    <p class="research-desc">
+      We develop a research-centered pilot project in partnership with the UW Climate Impacts Group to evaluate how
+      forest management practices may affect summer low flows in Pacific Northwest watersheds, with a focus on salmon
+      habitat, Tribal treaty rights, and climate resilience. The project will bring together scientists, Tribal
+      representatives, resource managers, NGOs, and other partners to design applied field and modeling research on how
+      forest age, thinning, canopy gaps, and snow storage influence streamflow.
+    </p>
+
+    <h2 class="research-section">Supporting Regional Stakeholders with Hydrologic Modeling, Climate Analysis and Projections of Future Hydrology</h2>
+    <p class="research-desc">
+      We collaborate with the UW Climate Impacts Group to leverage the Distributed Hydrology Soil Vegetation Model
+      (DHSVM), a high-resolution, physics-based model that translates broad Global Climate Models into precise,
+      localized watershed projections. By incorporating fine-scale data like topography, soil depth, and forest canopy,
+      DHSVM simulates how future climate scenarios will impact processes like snowmelt, soil moisture, and streamflow.
+      The Climate Impacts Group (CIG) uses these simulations to assess specific regional risks, including shifting flood
+      vulnerabilities, water supply shortages, and ecosystem changes.
+    </p>  </section>
 
   <section class="page-content hidden" id="page-news">
     <h1>DSHydro News & Updates</h1>
@@ -324,7 +350,65 @@
 
   <section class="page-content hidden" id="page-publications">
     <h1>Recent Publications</h1>
-    <p>
+
+    <h2 class="year-heading">2026</h2>
+    <p class="pub-list">
+      Shi, Q., Montgomery, D.R., Swann, A.L.S., Cristea, N.C., Williams, E.F., You, N. et al., 2026. Agroseismology and
+      the impact of farming practices on soil hydrodynamics. Science, 392(6795), pp.306-310.
+      <a href="https://doi.org/10.1126/science.aec0970" target="_blank">Read more...</a><br><br>
+
+      Cristea, N.C. and Lundquist, J.D., 2026. Sensitivity of spatial snowmelt simulations to radiative forcing and
+      model top layer thickness. Water Resources Research, 62(8), e2025WR042968.
+      <a href="https://doi.org/10.1029/2025WR042968" target="_blank">Read more...</a><br><br>
+
+      Pflug, J.M., Yang, K., Cristea, N., Boudreau, E.T., Vuyovich, C.M. and Kumar, S.V., 2026. Comparing 3 m resolution
+      snow cover downscaled from MODIS, VIIRS, and HLS using commercial satellite imagery and terrain information.
+      EGUsphere [preprint], pp.1-32.
+      <a href="https://egusphere.copernicus.org/preprints/2026/egusphere-2026-4850/egusphere-2026-4850.pdf" target="_blank">Read
+        more...</a><br><br>
+    </p>
+
+    <h2 class="year-heading">2025</h2>
+    <p class="pub-list">
+      Keck, J., Istanbulluoglu, E., Strauch, R. and Cristea, N., 2025. Could climate change decrease landslide hazard in
+      snow-dominated mountainous regions? Insights from a distributed hydrology-shallow landslide model of the North
+      Cascades, USA. Water Resources Research, 61(12), e2025WR040071.
+      <a href="https://doi.org/10.1029/2025WR040071" target="_blank">Read more...</a><br><br>
+
+      Rokem, A., Mandava, V., Cristea, N., Tambay, A., Bouchard, K. et al., 2025. Open-source models for development of
+      data and metadata standards. Patterns, 6(7), 101316.
+      <a href="https://doi.org/10.1016/j.patter.2025.101316" target="_blank">Read more...</a><br><br>
+
+      Mauger, G.S., Won, J.S. and Cristea, N.C., 2025. Projected Changes in Peak Flows for the Snohomish River Basin.
+      Climate Impacts Group, University of Washington, Seattle, prepared for the King County Flood Control District.
+      <a href="https://cig.uw.edu/publications/projected-changes-in-peak-flows-for-the-snohomish-river-basin" target="_blank">Read
+        more...</a><br><br>
+    </p>
+
+    <h2 class="year-heading">2024</h2>
+    <p class="pub-list">
+      Pflug, J.M., Yang, K., Cristea, N., Boudreau, E.T., Vuyovich, C.M. and Kumar, S.V., 2024. Using commercial
+      satellite imagery to reconstruct 3 m and daily spring snow water equivalent. Water Resources Research, 60(11),
+      e2024WR037983.
+      <a href="https://doi.org/10.1029/2024WR037983" target="_blank">Read more...</a><br><br>
+
+      Rogers, M.H., Mauger, G. and Cristea, N., 2024. Substantial cold bias during wintertime cold extremes in the
+      southern Cascadia region in historical CMIP6 simulations. Journal of Geophysical Research: Atmospheres, 129(19),
+      e2024JD041483.
+      <a href="https://doi.org/10.1029/2024JD041483" target="_blank">Read more...</a><br><br>
+
+      Sun, Z., ten Brink, T., Carande, W., Koren, G., Cristea, N. et al., 2024. Towards practical artificial intelligence
+      in Earth sciences. Computational Geosciences, 28(6), pp.1305-1329.
+      <a href="https://doi.org/10.1007/s10596-024-10317-7" target="_blank">Read more...</a><br><br>
+
+      John, A., Theobald, E.J., Cristea, N., Tan, A. and HilleRisLambers, J., 2024. Using photographs and deep neural
+      networks to understand flowering phenology and diversity in mountain meadows. Remote Sensing in Ecology and
+      Conservation, 10(4), pp.480-499.
+      <a href="https://doi.org/10.1002/rse2.382" target="_blank">Read more...</a><br><br>
+    </p>
+
+    <h2 class="year-heading">Earlier</h2>
+    <p class="pub-list">
       Cannistra, A.F., Shean, D.E. and Cristea, N.C., 2021. High-resolution CubeSat imagery and machine learning for
       detailed snow-covered area. Remote Sensing of Environment, 258, p.112399.<br><br>
 
@@ -340,124 +424,213 @@
       terrain-based downscaling of fractional snow covered area data sets based on LiDAR-derived snow data and
       orthoimagery. Water Resources Research, 53(8), pp.6802-6820.<br><br>
     </p>
+
+    <p class="scholar-link">
+      See the full list of publications on
+      <a href="https://scholar.google.com/citations?user=h_SpucwAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+    </p>
   </section>
 
   <section class="page-content hidden" id="page-team">
     <h1>DSHydro Team</h1>
     <p class="subtitle">Who we are and why we do it!</p>
-    <section id="team-container" class="desktop">
-      <div class="team-card">
+    <h2 class="team-section-title">Current Team</h2>
+    <section class="team-list">
+      <div class="team-member">
         <img class="profile-icon" src="assets/nc.png" />
-        <p class="profile-desc">
-          Nicoleta is a research hydrologist interested in combining computer modeling of freshwater systems with remote
-          sensing and spatial and temporal analyses. Like in many fields, efficiently storing, analyzing, and
-          visualizing the increasingly large datasets are becoming crucial for conducting successful research. We are
-          working on including modern data science techniques in teaching and research activities. Nicoleta holds a PhD
-          degree from the University of Washington. In her spare time she enjoys spending time with her family,
-          traveling, and skiing.
-        </p>
-        <img class="arrow-button" src="./assets/arrow_button.svg" />
-        <img class="arrow-button inverse" src="./assets/arrow_button.svg" />
+        <div class="team-info">
+          <h3 class="team-name">Nicoleta Cristea</h3>
+          <p class="team-role">Principal Investigator</p>
+          <p class="profile-desc">
+            Nicoleta is a research assistant professor in the <a href="https://www.ce.washington.edu/" target="_blank">Department of Civil and Environmental Engineering</a> and a
+            senior data science fellow at the <a href="https://escience.washington.edu/" target="_blank">eScience Institute</a> at the University of Washington. Her research focuses
+            on hydrology, ecohydrology, and the impacts of climate change on water resources, using remote sensing
+            combined with data-driven and physics-based modeling. Her work integrates geographic information systems,
+            satellite imagery, spatial statistics, spatiotemporal visualization, and machine learning. Nicoleta holds a
+            PhD from UW, and outside of work, she enjoys spending time with family, traveling, and skiing.
+          </p>
+        </div>
       </div>
-      <div class="team-card hidden">
-        <img class="profile-icon" src="assets/ky.png" />
-        <p class="profile-desc">
-          Kehan Yang is a Data Science Postdoctoral Fellow working with Dr. Nicoleta Cristea and Dr. Jessica Lundquist
-          in the Department of Civil and Environmental Engineering and eScience Institute at the University of
-          Washington. She earned her Ph.D. in Geography at University of Colorado Boulder, advised by Dr. Noah Molotch.
-          Dr. Yang's research is focused on advancing our understanding of spatiotemporal variability of seasonal
-          snowpack and snow water resources using multi-platform remote sensing observations and statistical learning
-          models. Her current project focuses on developing a cloud-based cyberinfrastructure to derive high
-          spatiotemporal resolution (i.e., ~ daily, ~3 m) snow cover information from commercial CubeSat imagery with
-          particular interest in vulnerable mountain ecosystems.
-        </p>
-        <img class="arrow-button" src="./assets/arrow_button.svg" />
-        <img class="arrow-button inverse" src="./assets/arrow_button.svg" />
+      <div class="team-member">
+        <img class="profile-icon" src="assets/hq.png" />
+        <div class="team-info">
+          <h3 class="team-name">Hernán Querbes Duhart</h3>
+          <p class="team-role">Research Scientist</p>
+          <p class="profile-desc">
+            Hernán Querbes Duhart is a Research Scientist working with Dr. Nicoleta Cristea in the Department of Civil
+            and Environmental Engineering. He earned his M.S. in Civil Engineering (Hydrology) from the University of
+            Washington in June 2026, advised by Dr. Bart Nijssen. His research focuses on advancing hydrological
+            understanding through machine learning and process-based modeling. His current project, conducted in
+            collaboration with Seattle City Light, centers on developing hydrological models for the Skagit River
+            watershed using the Distributed Hydrology Soil Vegetation Model (DHSVM), with applications to water resource
+            management and climate adaptation in the Pacific Northwest.
+            <a href="https://www.linkedin.com/in/hernanquerbes/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <div class="team-card hidden">
-        <img class="profile-icon" src="assets/profile_icon.png" />
-        <p class="profile-desc">
-          Aji John is a recent University of Washington (UW) Biology graduate working with Dr. Josh Lawler (UW SEFS)
-          and Dr. Nicoleta Cristea (UW Civil Engg.). Aji is actively researching use of fine-spatial satellite imagery
-          to investigate flowering patterns of montane species, and looking at distribution of snow in montane areas (a
-          key driver of productivity). He is also affiliated with eScience Institute at UW as a Postdoctoral fellow.
-        </p>
-        <img class="arrow-button" src="./assets/arrow_button.svg" />
-        <img class="arrow-button inverse" src="./assets/arrow_button.svg" />
+      <div class="team-member">
+        <img class="profile-icon" src="assets/niteesk.png" />
+        <div class="team-info">
+          <h3 class="team-name">Niteesh Kumar</h3>
+          <p class="team-role">Data Science Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Niteesh Kumar is a Data Science Graduate Student Assistant in the Data Science in Hydrology group working
+            on analyzing floods and hydrological risk in the Skagit River basin. His work combines data science methods,
+            hydrologic modeling, and spatial analysis to evaluate flood hazards and support water management and climate
+            adaptation in the Pacific Northwest.
+            <a href="https://www.linkedin.com/in/nks2001/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <div class="team-card hidden">
-        <img class="profile-icon" src="assets/st2.png" />
-        <p class="profile-desc">
-          Stefan Todoran is University of Washington Computer Science student working primarily with Dr. Nicoleta
-          Cristea and Dr. Marine Denolle as part of the GeoSMART team. Stefan is currently building infrastructure
-          for the advancement of ML tools within the geosciences, ranging from the GeoSMART and DSHydro websites and
-          blogs to CI/CD automation for GeoSMART curricula. In addition, Stefan is currently a part of multiple research
-          projects, including the use of computer vision in the reconstruction of misaligned image datasets, as well as
-          the use of aerial photography for cold water refuge mapping. In his free time he enjoys arts & crafts, skiing,
-          dancing and traveling!
-        </p>
-        <img class="arrow-button" src="./assets/arrow_button.svg" />
-        <img class="arrow-button inverse" src="./assets/arrow_button.svg" />
+      <div class="team-member">
+        <img class="profile-icon" src="assets/simran.jpeg" />
+        <div class="team-info">
+          <h3 class="team-name">Simran Dhankar</h3>
+          <p class="team-role">Data Science Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Simran Dhankar is a Data Science Graduate Student in the Data Science in Hydrology group working on using
+            Long Short-Term Memory (LSTM) models to simulate snowpack dynamics across the Western United States. Her
+            research applies deep learning and hydroclimatic data modeling to improve snowpack estimation and water
+            resource forecasting.
+            <a href="https://www.linkedin.com/in/simran-dhankar/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <svg class="mini-waves down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="-100 24 250 158" preserveAspectRatio="none" shape-rendering="auto">
-        <defs>
-          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-        </defs>
-        <g class="team-page-waves">
-          <use xlink:href="#gentle-wave" x="-88" y="0" fill="rgba(255,255,255,0.7)" />
-          <use xlink:href="#gentle-wave" x="88" y="3" fill="rgba(255,255,255,0.5)" />
-          <use xlink:href="#gentle-wave" x="-48" y="5" fill="rgba(255,255,255,0.3)" />
-          <use xlink:href="#gentle-wave" x="18" y="7" fill="#fff" />
-          <rect x="-100" y="80" width="250" height="500" fill="#fff" />
-        </g>
-      </svg>
     </section>
-    <section id="team-mobile-view" class="mobile">
-      <div class="team-card-mobile">
-        <img class="profile-icon" src="assets/nc.png" />
-        <p class="profile-desc">
-          Nicoleta is a research hydrologist interested in combining computer modeling of freshwater systems with remote
-          sensing and spatial and temporal analyses. Like in many fields, efficiently storing, analyzing, and
-          visualizing the increasingly large datasets are becoming crucial for conducting successful research. We are
-          working on including modern data science techniques in teaching and research activities. Nicoleta holds a PhD
-          degree from the University of Washington. In her spare time she enjoys spending time with her family,
-          traveling, and skiing.
-        </p>
+    <h2 class="team-section-title">Alumni</h2>
+    <section class="team-list">
+      <div class="team-member">
+        <img class="profile-icon" src="assets/bb.png" />
+        <div class="team-info">
+          <h3 class="team-name">Balaji Boopal</h3>
+          <p class="team-role">Data Science Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Balaji Boopal was a Graduate Student Assistant in the Data Science in Hydrology group while pursuing his
+            Master's in Data Science at the University of Washington. His background spans artificial intelligence,
+            machine learning, deep learning, and scalable data engineering pipelines, applying data-driven modeling and
+            AI solutions to hydroclimatic and environmental datasets. He is currently a Data Scientist at Amazon.
+            <a href="https://www.linkedin.com/in/balajiboopal" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <div class="team-card-mobile inverse">
+      <div class="team-member">
+        <img class="profile-icon" src="assets/ja.png" />
+        <div class="team-info">
+          <h3 class="team-name">Jesse Akes</h3>
+          <p class="team-role">Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Jesse Akes was a Student Assistant in the Data Science in Hydrology group while completing his M.S. in
+            Applied Mathematics at the University of Washington. He completed his undergraduate degree at the
+            University of North Carolina at Chapel Hill with a B.S. in Computer Science and a minor in Mathematics, and
+            worked as a software engineer in Seattle focusing on backend and search technologies. His research
+            analyzes the impact of climate change on the Pacific Northwest’s water resources, notably in the Skagit
+            River Basin. In his free time, he enjoys exploring the outdoors, mountain running, and skiing. He is now a
+            Senior Software Engineer at Headway.
+            <a href="https://www.linkedin.com/in/jesse-akes/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
         <img class="profile-icon" src="assets/ky.png" />
-        <p class="profile-desc">
-          Kehan Yang is a Data Science Postdoctoral Fellow working with Dr. Nicoleta Cristea and Dr. Jessica Lundquist
-          in the Department of Civil and Environmental Engineering and eScience Institute at the University of
-          Washington. She earned her Ph.D. in Geography at University of Colorado Boulder, advised by Dr. Noah Molotch.
-          Dr. Yang's research is focused on advancing our understanding of spatiotemporal variability of seasonal
-          snowpack and snow water resources using multi-platform remote sensing observations and statistical learning
-          models. Her current project focuses on developing a cloud-based cyberinfrastructure to derive high
-          spatiotemporal resolution (i.e., ~ daily, ~3 m) snow cover information from commercial CubeSat imagery with
-          particular interest in vulnerable mountain ecosystems.
-        </p>
+        <div class="team-info">
+          <h3 class="team-name">Kehan Yang</h3>
+          <p class="team-role">Postdoctoral Fellow</p>
+          <p class="profile-desc">
+            Kehan Yang was a Data Science Postdoctoral Fellow working with Dr. Nicoleta Cristea and Dr. Jessica Lundquist
+            in the Department of Civil and Environmental Engineering and eScience Institute at the University of
+            Washington. She earned her Ph.D. in Geography at University of Colorado Boulder, advised by Dr. Noah
+            Molotch. Dr. Yang's research is focused on advancing our understanding of spatiotemporal variability of
+            seasonal snowpack and snow water resources using multi-platform remote sensing observations and statistical
+            learning models. Her project developed a cloud-based cyberinfrastructure to derive high spatiotemporal
+            resolution (i.e., ~ daily, ~3 m) snow cover information from commercial CubeSat imagery with particular
+            interest in vulnerable mountain ecosystems. She is now a Research Scientist at SSAI and NASA Goddard Space
+            Flight Center.
+            <a href="https://www.linkedin.com/in/kehan-yang-03706020b/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <div class="team-card-mobile">
-        <img class="profile-icon" src="assets/profile_icon.png" />
-        <p class="profile-desc">
-          Aji John is a recent University of Washington (UW) Biology graduate working with Dr. Josh Lawler (UW SEFS)
-          and Dr. Nicoleta Cristea (UW Civil Engg.). Aji is actively researching use of fine-spatial satellite imagery
-          to investigate flowering patterns of montane species, and looking at distribution of snow in montane areas (a
-          key driver of productivity). He is also affiliated with eScience Institute at UW as a Postdoctoral fellow.
-        </p>
+      <div class="team-member">
+        <img class="profile-icon" src="assets/SetevenPestana.jpeg" />
+        <div class="team-info">
+          <h3 class="team-name">Steven Pestana</h3>
+          <p class="team-role">Research Scientist</p>
+          <p class="profile-desc">
+            Steven Pestana was a Research Scientist in the Data Science in Hydrology group. His contributions focused on
+            working with distributed hydrologic model outputs and meteorological datasets in the Skagit River basin, as
+            well as supporting, participating in, and organizing GeoSMART hackweeks and machine learning use case studies.
+            <a href="https://www.linkedin.com/in/spestana/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
       </div>
-      <div class="team-card-mobile inverse">
+      <div class="team-member">
+        <img class="profile-icon" src="assets/EmmaBoudreau.jpeg" />
+        <div class="team-info">
+          <h3 class="team-name">Emma Boudreau</h3>
+          <p class="team-role">Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Emma Boudreau was a UW CEE student working with PIs Dr. Nicoleta Cristea and Dr. Jessica Lundquist. Her
+            research investigated how the fine-scale distribution of snow influences late-season streamflow, with
+            downstream effects on groundwater levels and ecosystem health, leveraging high-resolution satellite imagery
+            and machine learning to map snow cover in complex, forested terrain.
+            <a href="https://www.linkedin.com/in/emma-boudreau-915b5b225/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img class="profile-icon" src="assets/IanChiu.jpeg" />
+        <div class="team-info">
+          <h3 class="team-name">Ian Chiu</h3>
+          <p class="team-role">Data Science Undergraduate Student Assistant</p>
+          <p class="profile-desc">
+            Ian Chiu was a Data Science Undergraduate Student Assistant in the Data Science in Hydrology group. His work
+            focused on developing a Python library for a random forest machine learning model trained to detect snow using
+            satellite imagery.
+            <a href="https://www.linkedin.com/in/ian-chiu-494058215/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img class="profile-icon" src="assets/WenyuJiao.png" />
+        <div class="team-info">
+          <h3 class="team-name">Wenyu Jiao</h3>
+          <p class="team-role">Graduate Student Assistant</p>
+          <p class="profile-desc">
+            Wenyu Jiao was a Graduate Student Assistant in the Data Science in Hydrology group working on analyzing snowmelt
+            patterns in the Tolt River basin and evaluating changes in snowpack using WRF-CMIP5 climate projections.
+            She is now pursuing a Ph.D. degree at Cornell University.
+            <a href="https://www.linkedin.com/in/wenyu-jiao/" target="_blank">LinkedIn Profile</a>
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
+        <img class="profile-icon" src="assets/aji.png" />
+        <div class="team-info">
+          <h3 class="team-name">Aji John</h3>
+          <p class="team-role">Postdoctoral Fellow</p>
+          <p class="profile-desc">
+            Aji John is a recent University of Washington (UW) Biology graduate working with Dr. Josh Lawler (UW SEFS)
+            and Dr. Nicoleta Cristea (UW Civil Engg.). Aji is actively researching use of fine-spatial satellite imagery
+            to investigate flowering patterns of montane species, and looking at distribution of snow in montane areas
+            (a key driver of productivity). He is also affiliated with eScience Institute at UW as a Postdoctoral
+            fellow.
+          </p>
+        </div>
+      </div>
+      <div class="team-member">
         <img class="profile-icon" src="assets/st2.png" />
-        <p class="profile-desc">
-          Stefan Todoran is University of Washington Computer Science student working primarily with Dr. Nicoleta
-          Cristea and Dr. Marine Denolle as part of the GeoSMART team. Stefan is currently building infrastructure
-          for the advancement of ML tools within the geosciences, ranging from the GeoSMART and DSHydro websites and
-          blogs to CI/CD automation for GeoSMART curricula. In addition, Stefan is currently a part of multiple research
-          projects, including the use of computer vision in the reconstruction of misaligned image datasets, as well as
-          the use of aerial photography for cold water refuge mapping. In his free time he enjoys arts & crafts, skiing,
-          dancing and traveling!
-        </p>
+        <div class="team-info">
+          <h3 class="team-name">Stefan Todoran</h3>
+          <p class="team-role">Computer Science Researcher</p>
+          <p class="profile-desc">
+            Stefan Todoran is University of Washington Computer Science student working primarily with Dr. Nicoleta
+            Cristea and Dr. Marine Denolle as part of the GeoSMART team. Stefan is currently building infrastructure
+            for the advancement of ML tools within the geosciences, ranging from the GeoSMART and DSHydro websites and
+            blogs to CI/CD automation for GeoSMART curricula. In addition, Stefan is currently a part of multiple
+            research projects, including the use of computer vision in the reconstruction of misaligned image datasets,
+            as well as the use of aerial photography for cold water refuge mapping. In his free time he enjoys arts &
+            crafts, skiing, dancing and traveling!
+          </p>
+        </div>
       </div>
     </section>
   </section>
